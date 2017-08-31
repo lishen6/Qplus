@@ -1,0 +1,208 @@
+.limit {
+    position: fixed;
+    width: pxTorem(254px);
+    height: pxTorem(60px);
+    background: rgba(32, 32, 32, .8) !important;
+    border-radius: pxTorem(8px);
+    font-size: pxTorem(14px);
+    color: #FFFFFF;
+    span {
+        width: pxTorem(168px);
+    }
+    display: none;
+}
+
+.rwz-title {
+    width: pxTorem(254px);
+    height: pxTorem(41px);
+    background: rgba(32, 32, 32, .8) !important;
+    line-height: pxTorem(41px);
+    border-radius: pxTorem(8px);
+    color: #FFFFFF;
+    text-align: center;
+    display: none;
+}
+
+.submit {
+    &>div {
+        margin-top: pxTorem(10px);
+        background: #ffffff;
+        padding-left: pxTorem(15px);
+        padding-right: pxTorem(15px);
+    }
+}
+
+.detail {
+    margin-bottom: 0 !important;
+    border-bottom: 1px solid #D8D8D8;
+    ;
+    height: pxTorem(122px);
+    .imgbox {
+        float:none;
+        width: pxTorem(85px);
+        height: pxTorem(85px);
+        img{
+          width:100%;
+        }
+    }
+    .right {
+        &>div {
+            padding: pxTorem(2px) 0;
+        }
+        float:none;
+        padding-left: pxTorem(15px);
+        font-size: pxTorem(13px);
+        color: #4D4D4D;
+    }
+    .tc {
+        color: #FF8F45;
+    }
+}
+
+h3 {
+    font-size: pxTorem(14px);
+    color: #4D4D4D;
+    margin-bottom: pxTorem(14px);
+}
+
+.yc {
+    padding: pxTorem(8px) 0 pxTorem(15px) 0;
+    .left {
+        width: pxTorem(150px);
+        height: pxTorem(60px);
+        border: 1px solid #979797;
+        border-radius: 2px;
+        position: relative;
+        .price{
+            width: 100%;
+        }
+        .priceClick {
+            border: 1px solid #FFBD66;
+            border-radius: 2px;
+            color: #F5A623;
+        }
+        span {
+          font-size: pxTorem(12px);
+            text-align: center;
+            display: block;
+        }
+        &:nth-of-type(1) {
+            margin-right: pxTorem(16px);
+        }
+        .discount{
+           transform:scale(.83);
+        }
+    }
+    .ycactive {
+        border: 1px solid #FFBD66!important;
+        border-radius: 2px!important;
+        color: #F5A623!important;
+    }
+   .active{
+     border: 1px solid #FFBD66;
+     border-radius: 2px;
+     color: #F5A623;
+   }
+}
+
+.info {
+    padding-top: pxTorem(12px);
+    padding-bottom: pxTorem(12px);
+    position: relative;
+    p {
+        font-size: pxTorem(12px);
+        color: #999999;
+        line-height: pxTorem(20px);
+        &:nth-of-type(1) {
+            font-size: pxTorem(14px);
+            color: #4D4D4D;
+        }
+    }
+    .btn {
+        position: absolute;
+        right: pxTorem(19px);
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .rwr {
+        display: block;
+        text-align: center;
+        opacity: 0.5;
+        font-size: pxTorem(12px);
+        color: #000000;
+        span {
+            display: inline-block;
+            vertical-align: middle;
+            &:nth-of-type(1) {
+                display: inline-block;
+                width: pxTorem(16px);
+                height: pxTorem(16px);
+                border-radius: 50%;
+                border: 1px solid #675757;
+                margin-right: pxTorem(10px);
+                line-height: pxTorem(16px);
+                position: relative;
+                i {
+                    position: absolute;
+                    font-style: normal;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+            }
+        }
+    }
+}
+
+.code {
+    padding-top: pxTorem(12px);
+    padding-bottom: pxTorem(18px);
+    input {
+        width: pxTorem(240px);
+        height: pxTorem(37px);
+        border: 1px solid #979797;
+        padding-left: pxTorem(11px);
+        font-size: pxTorem(12px);
+        color: #999999;
+    }
+    button {
+        width: pxTorem(90px);
+        height: pxTorem(37px);
+        background: #675757;
+        border: 1px solid #675757;
+        border-radius: 2px;
+        .use {
+            color: #FFFFFF;
+            font-size: pxTorem(12px);
+        }
+    }
+}
+
+.money {
+    height: pxTorem(50px);
+    line-height: pxTorem(50px);
+    font-size: pxTorem(12px);
+    color: #4D4D4D;
+    span {
+        font-size: pxTorem(18px);
+    }
+}
+
+.footer {
+    margin-top: pxTorem(17px) !important;
+    padding: pxTorem(6px) 0;
+    .btn {
+        display: block;
+        width: 66%;
+        height: pxTorem(36px);
+        margin: 0 auto;
+        font-size: pxTorem(14px);
+        color: #FFFFFF;
+        background: #675757;
+        border-radius: 4px;
+        outline: none;
+        border: none;
+        text-align: center;
+        line-height: pxTorem(36px);
+    }
+}

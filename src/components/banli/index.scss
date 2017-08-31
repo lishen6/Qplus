@@ -1,0 +1,193 @@
+﻿#banli {
+  background: #ffffff;
+  height: 100%;
+  .rwz-title {
+    width: pxTorem(254px);
+    height: pxTorem(41px);
+    background: rgba(32, 32, 32, .8) !important;
+    line-height: pxTorem(41px);
+    border-radius: pxTorem(8px);
+    color: #FFFFFF;
+    text-align: center;
+    display: none;
+  }
+  & > div {
+    padding-left: pxTorem(15px);
+    padding-right: pxTorem(15px);
+  }
+  h3 {
+    padding: pxTorem(14px) 0 pxTorem(16px) 0;
+    font-size: pxTorem(16px);
+    color: #4D4D4D;
+    letter-spacing: 0;
+    line-height: 1;
+    font-weight: normal;
+  }
+  .target {
+    a {
+      display: inline-block;
+      padding: 0 36px;
+      border: 1px solid #F5A623;
+      font-size: pxTorem(14px);
+      color: #F5A623;
+      letter-spacing: 0;
+      border-radius: 2px;
+      text-align: center;
+      height: pxTorem(28px);
+      line-height: pxTorem(28px);
+    }
+  }
+  .tc-type {
+    .tc-price {
+      display: none;
+      &:nth-of-type(1) {
+        display: block !important;
+      }
+    }
+    .tab {
+      text-align: center;
+      display: inline-block;
+      padding: 0 pxTorem(10px);
+      margin-right: pxTorem(18px);
+      margin-bottom: pxTorem(10px);
+      font-size: pxTorem(14px);
+      height: pxTorem(30px);
+      line-height: pxTorem(30px);
+      color: #F5A623;
+      border: 1px solid #F5A623;
+      border-radius: 2px;
+      font-weight: normal;
+    }
+    .active {
+      background: #F5A623 !important;
+      border: 1px solid #F5A623;
+      border-radius: 2px;
+      color: #ffffff !important;
+    }
+    .tab0 {
+      background: #F5A623;
+      color: #ffffff;
+    }
+  }
+  .dz {
+    display: none;
+    h3 {
+      padding-top: pxTorem(6px);
+      display: inline-block;
+    }
+    .after {
+      display: inline-block;
+      font-size: pxTorem(12px);
+      color: #F5A623;
+      padding-left: pxTorem(10px);
+    }
+    .tc-choice {
+      background: #F9F9FA;
+      padding: pxTorem(21px) pxTorem(22px);
+      font-size: pxTorem(14px);
+      &.fdz {
+        padding: pxTorem(10px) pxTorem(20px);
+      }
+      .list {
+        margin-bottom: pxTorem(25px);
+        line-height: pxTorem(30px);
+        vertical-align: middle;
+        &.fdz {
+          margin-bottom: pxTorem(10px);
+        }
+        span {
+          flex: 1;
+          font-size: pxTorem(14px);
+          color: #4D4D4D;
+          letter-spacing: 0;
+          font-family: PingFangSC-Regular;
+        }
+        .unit {
+          font-family: PingFangSC-Light;
+        }
+        .pri {
+          vertical-align: middle;
+          font-size: pxTorem(14px);
+          color: #F5A623;
+          letter-spacing: 0;
+          &.right {
+            font-size: pxTorem(12px);
+            line-height: pxTorem(30px);
+            opacity: 0.5;
+            color: #000000;
+            letter-spacing: 0;
+
+          }
+        }
+        .mar {
+          margin-right: pxTorem(16px);
+        }
+        &:last-of-type {
+          margin-bottom: pxTorem(14px);
+        }
+      }
+      .tw {
+        opacity: 0.5;
+        font-size: pxTorem(12px);
+        color: #000000;
+        margin-top: pxTorem(11px);
+      }
+      input {
+        border: 1px solid #979797;
+        border-radius: 2px;
+        width: pxTorem(120px);
+        height: pxTorem(30px);
+        text-align: center;
+        font-weight: normal;
+        font-size: pxTorem(14px);
+        font-family: PingFangSC-Medium;
+        color: #4D4D4D;
+      }
+      .detail {
+        opacity: 0.5;
+        font-size: pxTorem(12px);
+        color: #000000;
+        margin-bottom: 4px;
+        letter-spacing: 0;
+        &:last-of-type {
+          opacity: 1;
+          margin-top: pxTorem(11px);
+          padding-bottom: pxTorem(10px);
+          font-size: pxTorem(18px);
+          color: #4D4D4D;
+          border-bottom: 1px solid #e0e0e0;
+          span {
+            color: rgba(245, 166, 35, 1);
+          }
+        }
+      }
+    }
+  }
+  .clickAfter {
+    display: block;
+  }
+  .clickAfters {
+    display: none !important;
+  }
+  .footer-block {
+    height: pxTorem(78px);
+  }
+  .footer {
+    padding-top: pxTorem(21px);
+    padding-bottom: pxTorem(21px);
+    .btn {
+      display: block;
+      width: 66%;
+      height: pxTorem(36px);
+      margin: 0 auto;
+      font-size: pxTorem(14px);
+      color: #FFFFFF;
+      background: #675757;
+      border-radius: 4px;
+      outline: none;
+      border: none;
+      text-align: center;
+      line-height: pxTorem(36px);
+    }
+  }
+}

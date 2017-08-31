@@ -1,0 +1,170 @@
+.id {
+  & > div {
+    background: #ffffff;
+    //padding-top: pxTorem(10px);
+  }
+  .palbox {
+    position: fixed;
+    width: 100%;
+    height:100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .5) !important;
+    z-index: 666;
+    display: none;
+  }
+  .studentShow {
+    transform: translateY(0) !important;
+  }
+  .student {
+    padding: 0 pxTorem(10px) pxTorem(9px);
+    width: 100%;
+    //修改为 absolult
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 34%;
+    z-index: 888;
+    background: none;
+    transform: translateY(100%);
+    transition: all .3s;
+    .content {
+      width: 100%;
+      height: 100%;
+      .select {
+        width: 100%;
+        height: 72%;
+        border-radius: pxTorem(12px);
+        background: rgba(255, 255, 255, 1) !important;
+        & > div {
+          border-bottom: 1px solid rgba(77, 77, 77, 0.78);
+          text-align: center;
+          height: 33%;
+          color: #0076FF;
+          position: relative;
+          &:nth-of-type(1) {
+            font-size: pxTorem(13px);
+            color: #8F8E94;
+          }
+          &:nth-of-type(2) {
+            font-size: pxTorem(20px);
+          }
+          &:nth-of-type(3) {
+            font-size: pxTorem(20px);
+            border-bottom: none;
+          }
+          span {
+            position: absolute;
+            display: block;
+            width: 100%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+          }
+        }
+        .selectactive {
+          color: #FE3824;
+        }
+      }
+      .btn {
+        width: 100%;
+        height: 24%;
+        background: #FFFFFF;
+        border-radius: pxTorem(12px);
+        margin-top: pxTorem(10px);
+        font-size: pxTorem(20px);
+        color: #0076FF;
+        letter-spacing: 0.38px;
+        border: none;
+      }
+    }
+  }
+}
+
+.icon {
+  /* 调试成 10px */
+  &:before {
+    content: '*';
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: pxTorem(7px);
+    font-size: pxTorem(10px);
+    color: #FF001F;
+  }
+}
+
+.none {
+  margin-left: pxTorem(9px);
+}
+
+.form {
+  padding: 0 pxTorem(23px) 0 pxTorem(8px);
+  & > div {
+    //height: pxTorem(56px);
+    border-bottom: 1px solid #E3E3E3;
+    //line-height: pxTorem(56px);
+    padding: pxTorem(17px) 0;
+    overflow: hidden;
+    span {
+      font-size: pxTorem(16px);
+      color: #3A3A48;
+    }
+    .output {
+      height: pxTorem(20px);
+      border: none;
+      line-height:pxTorem(20px);
+      text-align: right;
+      float: right;
+      font-size: 14px;
+      //color: #9F9FAC;
+    }
+    input::-webkit-input-placeholder{
+      color: #9F9FAC;opacity:1;
+    }
+    .router{
+      color: #9F9FAC;
+    }
+    .active{
+      color: #3A3A48!important;
+    }
+
+    .youxiao {
+      width: pxTorem(180px) !important;
+    }
+  }
+}
+
+.owner {
+  strong {
+    font-size: pxTorem(14px);
+    color: #9F9FAC;
+    font-weight: normal;
+    line-height: pxTorem(20px);
+    text-align: right;
+  }
+}
+
+.footer {
+  background: #f5f4f9 !important;
+  margin: pxTorem(6px) 0;
+  .save {
+    display: block;
+    width: 90%;
+    height: pxTorem(50px);
+    margin: pxTorem(20px) auto;
+    font-size: pxTorem(18px);
+    color: #FFFFFF;
+    background: rgba(103, 87, 87, 0.30);
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    text-align: center;
+    line-height: pxTorem(50px);
+  }
+  .clicksave {
+    background: #675757 !important;
+  }
+}
+.rwz-title{
+
+}

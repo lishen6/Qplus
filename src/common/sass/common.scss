@@ -1,0 +1,43 @@
+$browser-default-font-size: 120px;
+@function pxTorem($px) {
+  //$px为需要转换的字号
+  @return $px / $browser-default-font-size * 1rem;
+}
+
+
+.rwz-title {
+  width: pxTorem(254px);
+  height: pxTorem(41px);
+  background: rgba(32, 32, 32, .8) !important;
+  line-height: pxTorem(41px);
+  border-radius: pxTorem(8px);
+  color: #FFFFFF;
+  text-align: center;
+  display: none;
+}
+
+.footer-block {
+  height: pxTorem(36px);
+}
+
+.bottomfix {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background: #ffffff;
+  .btn {
+    display: block;
+    width: 66%;
+    height: pxTorem(36px);
+    margin: 0 auto;
+    font-size: pxTorem(14px);
+    color: #FFFFFF;
+    background: #675757;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    text-align: center;
+    line-height: pxTorem(36px);
+  }
+}

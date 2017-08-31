@@ -1,0 +1,124 @@
+.pay {
+    &>div {
+        margin-bottom: pxTorem(10px);
+        background: #ffffff;
+    }
+}
+
+.detail {
+    border-bottom: 1px solid #D8D8D8;
+    ;
+    .imgbox {
+        width: pxTorem(85px);
+        height: pxTorem(85px);
+        img{
+          width:100%;
+        }
+    }
+    .details {
+        &>div {
+            padding: pxTorem(1px) 0;
+        }
+        padding-left: pxTorem(15px);
+        font-size: pxTorem(13px);
+        color: #4D4D4D;
+    }
+   .tc{
+     color:#FF9F00;
+   }
+}
+
+.padding {
+    padding: pxTorem(20px) pxTorem(15px);
+}
+
+.info {
+    padding-top: pxTorem(12px);
+    padding-bottom: pxTorem(17px);
+    position: relative;
+    p {
+        font-size: pxTorem(12px);
+        color: #999999;
+        line-height: pxTorem(20px);
+        &:nth-of-type(1) {
+            font-size: pxTorem(14px);
+            color: #4D4D4D;
+        }
+    }
+  img{
+    position: absolute;
+    top:50%;
+    right: pxTorem(20px);
+    transform:translateY(-50%);
+  }
+}
+
+.paystyle {
+    h3 {
+        font-size: pxTorem(14px);
+        color: #4D4D4D;
+        margin-bottom: pxTorem(7px);
+    }
+    .wei {
+        height: pxTorem(40px);
+        span {
+            width: 30%;
+            border: 1px solid #979797;
+            border-radius: 2px;
+            height: pxTorem(40px);
+            display: block;
+            text-align: center;
+            line-height: pxTorem(40px);
+        }
+        .btn {
+            background: #FFF8EF;
+            border: 1px solid #FFBD66;
+            border-radius: 2px;
+            font-size: pxTorem(12px);
+            color: #4D4D4D;
+            position: relative;
+           i{
+             position: absolute;
+             top:50%;
+             transform:translateY(-50%);
+             right:pxTorem(11px);
+             font-style:normal;
+           }
+          img{
+            width:pxTorem(24px);
+            position: absolute;
+            top:50%;
+            transform:translateY(-50%);
+            left:pxTorem(19px);
+          }
+        }
+    }
+}
+
+.footer {
+    margin: pxTorem(39px) 0;
+    background: #f5f4f9!important;
+    .btn {
+        display: block;
+        width: 90%;
+        height: pxTorem(50px);
+        margin: 0 auto;
+        font-size: pxTorem(18px);
+        color: #FFFFFF;
+        background: #675757;
+        border-radius: 4px;
+        outline: none;
+        border: none;
+        text-align: center;
+        line-height: pxTorem(50px);
+    }
+}
+
+.time {
+    text-align: center;
+    background: #FFEFD5;
+    height: pxTorem(30px);
+    line-height: pxTorem(30px);
+    font-size: pxTorem(13px);
+    color: #FF9F00;
+}

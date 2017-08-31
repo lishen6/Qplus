@@ -1,0 +1,100 @@
+#city {
+    position: relative;
+}
+
+.search {
+    padding: pxTorem(14px) pxTorem(15px);
+    input {
+        display: inline-block;
+        width: 100%;
+        height: pxTorem(30px);
+        text-align: center;
+    }
+}
+
+.letter-item {
+    >div:first-child {
+        font-size: pxTorem(15px);
+        color: #999999;
+        height: pxTorem(26px);
+        line-height: pxTorem(26px);
+        background: #f5f4f9;
+    }
+    >div {
+        font-size: pxTorem(15px);
+        color: #4D4D4D;
+        height: pxTorem(40px);
+        padding-left: pxTorem(19px);
+        line-height: pxTorem(40px);
+        background: #ffffff;
+        padding-right: 7%;
+        span {
+            display: inline-block;
+            width: 100%;
+            line-height: pxTorem(40px);
+            border-bottom: 1px solid #D8D8D8;
+        }
+    }
+}
+
+.letter-aside {
+    position: fixed;
+    right: pxTorem(10px);
+    top: pxTorem(54px);
+    ul {
+        list-style: none;
+        line-height: 1.4em;
+        font-size: pxTorem(12px);
+        color: rgba(255, 189, 102, 1);
+    }
+}
+
+#tip {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border: 1px solid #333333;
+    width: pxTorem(100px);
+    height: pxTorem(100px);
+    z-index: 10;
+    text-align: center;
+    line-height: pxTorem(100px);
+    font-size: pxTorem(50px);
+    opacity: 0;
+}
+
+.tipAppear {
+    animation: appearTip 1 linear 0.5s;
+}
+
+@keyframes appearTip {
+    0% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.search-city {
+    text-align: center;
+    padding: pxTorem(5px) 0;
+    input {
+        line-height: pxTorem(24px);
+        border-radius: 5px;
+        outline: none;
+    }
+}
+
+.tipShow {
+    text-align: center;
+    line-height: pxTorem(60px);
+    font-size: pxTorem(16px);
+    color: #bbbbbb;
+}

@@ -1,0 +1,16 @@
+.items{
+  background: #FFFFFF;
+  padding: pxTorem(15px);
+  .item{
+    margin-bottom: pxTorem(4px);
+    .left{
+      font-size: pxTorem(13px);
+      color: #4D4D4D;
+    }
+    .right{
+      opacity: 0.6;
+      font-size: pxTorem(13px);
+      color: #4D4D4D;
+    }
+  }
+}

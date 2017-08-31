@@ -1,0 +1,31 @@
+.search {
+  padding: pxTorem(6px) pxTorem(16px);
+  .btn {
+    font-family: PingFangSC-Regular;
+    width: 100%;
+    height: pxTorem(35px);
+    text-align: center;
+    font-size: pxTorem(16px);
+    color: #ADADAD;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+  }
+}
+
+.item {
+  height: pxTorem(56px);
+  line-height: pxTorem(56px);
+  font-size: pxTorem(16px);
+  color: #3A3A48;
+  background: #FFFFFF;
+  border-bottom: 1px solid #E3E3E3;
+  padding-left: pxTorem(16px);
+  &:nth-of-type(1){
+    border-top:1px solid #E3E3E3;
+  }
+}
+
+.schoolactive {
+  color: #FE3824;
+}

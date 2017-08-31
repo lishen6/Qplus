@@ -1,0 +1,60 @@
+.tc-price {
+    h3 {
+        &:after {
+            content: '(套餐金额不能低于39元哦)';
+            display: inline-block;
+            font-size: pxTorem(12px);
+            color: #F5A623;
+            padding-left: pxTorem(10px);
+        }
+    }
+    .tc-choice {
+        .list {
+            margin-bottom: pxTorem(25px);
+            span {
+                flex: 1;
+            }
+            .pri {
+                vertical-align: middle;
+                font-size: pxTorem(12px);
+            }
+            .mar {
+                margin-right: pxTorem(16px);
+            }
+            &:last-of-type {
+                margin-bottom: pxTorem(14px);
+            }
+        }
+        .tw {
+            opacity: 0.5;
+            font-size: pxTorem(12px);
+            color: #000000;
+            margin-top: pxTorem(11px);
+        }
+        background: #F9F9FA;
+        padding:pxTorem(26px) pxTorem(22px);
+        font-size: pxTorem(14px);
+        input {
+            border: 1px solid #979797;
+            border-radius: 2px;
+            width: pxTorem(120px);
+            height: pxTorem(30px);
+            text-align: center;
+        }
+        .detail {
+            opacity: 0.5;
+            font-size: pxTorem(12px);
+            color: #000000;
+            margin-bottom: 2px;
+            &:last-of-type {
+                margin-top: pxTorem(11px);
+                margin-bottom: pxTorem(10px);
+                font-size: pxTorem(18px);
+                color: #4D4D4D;
+                span {
+                    color: rgba(245, 166, 35, 1);
+                }
+            }
+        }
+    }
+}
